@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Book by ID</title>
+  <link rel="stylesheet" href="../CSS/getbookbyid.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h2>Get Book by ID</h2>
+
+  <form id="getBookForm">
+    <label for="bookId">Enter Book ID :</label>
+    <input type="text" id="bookId" name="bookId" required >
+    <button type="submit">Get Book</button>
+  </form>
+
+  
+
+  <div id="bookResult" style="display: none;">
+    <h3>Book Details:</h3>
+    <p id="bookDetails"></p>
+  </div>
+
+  <script src="../Javascript/getbookbyid.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Management UI</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+  <h2 style="text-align: center;">Book Library Management</h2>
+
+  <button onclick="getAllBooks()">Get All Books</button>
+  <a href="addbook.html"><button>Add Book</button></a>
+  <!-- <a href="getbookbyid.html"><button >Get Book By Id</button></a> -->
+  <button onclick="getAllDeletedBooks()">Deleted Books</button>
+  <table id="bookTable" >
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Year</th>
+      <th>Published Date</th>
+      <th>Publisher</th>
+      <th>Action</th>
+    </tr>
+
+    <tbody id="bookTableBody">
+      <!-- Table rows will be dynamically added here -->
+    </tbody>
+
+  </table>
+
+
+
+
+
+  <script src="../Javascript/scripts.js"></script>
+
+</body>
+</html>
